@@ -23,7 +23,7 @@ public class ControlsTestActivity extends AppCompatActivity {
         textView.setTextSize(20);
         textView.setBackgroundColor(Color.BLUE);
 
-        String s = "hello" + 2;
+        String s = "hello" + 5;
         Log.e(TAG, s);
 
         float f = (float) (5 + 5.5);
