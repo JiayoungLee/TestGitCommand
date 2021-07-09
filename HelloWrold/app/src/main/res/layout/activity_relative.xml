@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:text="在父布局中居中"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="在父布局中顶部"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:text="在父布局中左边"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:text="在父布局中右边"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button5"
+        android:text="在父布局中底部"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/button6"
+        android:text="居中按钮上方"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button7"
+        android:text="居中按钮下方"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button1"
+        />
+
+
+    <Button
+        android:id="@+id/button8"
+        android:text="居中按钮左方"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/button1"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/button9"
+        android:text="居中按钮右方"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button1"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
